@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Challege</title>
+    <meta name="description" content="Challege">
+    <link rel="stylesheet" href="stile.css">
+    <link rel="icon" href="#">
+</head>
+
+<body>
+    <section id="writer-test">
+        <div id="contenitore-parole"></div>
+        <div id="input-word">
+            <input type="text" id="inp" name="" value="" placeholder="digita parola">
+            <a id="nuovo-test" href="/">Nuovo Test</a>
+        </div>
+        <div id="timer-wrapper">Secondi rimanenti &raquo;
+            <span id="timer"></span>
+        </div>
+        <div id="result"></div>
+    </section>
+
+    <script type="module">
+        import initTest from '/app.js'
+        document.addEventListener('DOMContentLoaded', () => {
+            initTest()
+        })
+    </script>
+</body>
+
+</html>

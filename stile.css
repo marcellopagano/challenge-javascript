@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    padding:50px;
+    background-color: rgb(220,220,220);
+}
+#writer-test {
+    width:80vw;
+    margin:0 auto;
+}
+
+#contenitore-parole {
+    width:100%;
+    background-color: #fff;
+    padding:18px 20px;
+    font-size:24px;
+    line-height: 42px;
+}
+#contenitore-parole > span {
+    display: inline-block;
+    padding: 2px 6px;
+    border-radius: 6px;
+}
+#contenitore-parole > span.selected {
+    background-color: rgb(200,200,200);
+}
+#input-word {
+    margin-top: 20px;
+}
+#input-word input {
+    padding:16px;
+    font-size: 26px;
+    width: 60%;
+}
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+}
+#timer-wrapper {
+    margin-top:30px;
+    font-size: 30px
+}
+.parola-errata {
+    color: red;
+}
+.parola-corretta {
+    color: green;
+}
